@@ -1,3 +1,4 @@
+
 This is my Django React Todo App
 ![t1](https://github.com/Alicenjoki/django_react_todo_list/assets/85416554/d7c4decc-0431-436b-bc70-1f63754d6503)
 one can be able to add a task to be completed, which has a body, checkbox, and date added
@@ -17,5 +18,24 @@ To Edit a task, click the edit button and it will return a modal that enables us
 To delete a task, click on the delete button, and will automatically delete the task chosen.
 ![t7](https://github.com/Alicenjoki/django_react_todo_list/assets/85416554/3374b61f-772a-4f7d-a19a-5e2f901522c6)
 
+*******FOR CLONING*******
+~Clone the project using the link https://github.com/Alicenjoki/django_react_todo_list.git
+~open two terminal tabs, one for react and one for django
+~cd to the backend folder for django in one tab and to the frontend folder for react in the other tab
 
+ **DJANGO.**
+ ~in the django terminal tab:
+1) create an env and activate it.
+   ~for linux: ". env/bin/activate"
+   ~for windows: ". \env\bin\activate"
+3) type "pip install -r requirements.txt"
+   ~This will install all the packages required by the django project
+4) run "python3 manage.py runserver" or "python manage.py runserver" depending on the python you are using.
+~the django project will run on the port 8000
+  **REACT**
+1) Ensure that Node.js in your system and check the version.
+2) install npm if it does not install with node js and confirm by checking the version
+3) install the project dependencies by running "npm i" or "npm install"
+4) type "npm run dev" to start the react server
+~the react project will run on port 5173
 
